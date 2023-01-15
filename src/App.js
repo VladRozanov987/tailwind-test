@@ -1,9 +1,12 @@
-import { Navbar } from "./components";
+import { HeadlineCards, Hero, Navbar, Food } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Hero />
+      <HeadlineCards />
+      <Food />
     </div>
   );
 }

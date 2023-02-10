@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VladRozanov987/tailwind-test.git/static/css/main.f57861e8.css",
+    "main.js": "/VladRozanov987/tailwind-test.git/static/js/main.6d87dfd2.js",
+    "index.html": "/VladRozanov987/tailwind-test.git/index.html",
+    "main.f57861e8.css.map": "/VladRozanov987/tailwind-test.git/static/css/main.f57861e8.css.map",
+    "main.6d87dfd2.js.map": "/VladRozanov987/tailwind-test.git/static/js/main.6d87dfd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f57861e8.css",
+    "static/js/main.6d87dfd2.js"
+  ]
+}

@@ -30,7 +30,10 @@ const Navbar = () => {
       </div>
       {/* Search */}
       <div className="flex bg-gray-200 rounded-full items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
-        <AiOutlineSearch size={20} />
+        <AiOutlineSearch
+          size={20}
+          className="cursor-pointer hover:scale-110 transition-all .3s"
+        />
         <input
           className="bg-transparent p-2 focus:outline-none"
           type="text"
@@ -71,31 +74,31 @@ const Navbar = () => {
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <TbTruckDelivery size={25} className="mr-4" />
               Orders
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <MdFavorite size={25} className="mr-4" />
               Favorites
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <FaWallet size={25} className="mr-4" />
               Wallet
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <MdHelp size={25} className="mr-4" />
               Help
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <AiFillTag size={25} className="mr-4" />
               Promotions
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <BsFillSaveFill size={25} className="mr-4" />
               Best Ones
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:scale-110 transition-all .3s">
               <FaUserFriends size={25} className="mr-4" />
               Invite Friends
             </li>
